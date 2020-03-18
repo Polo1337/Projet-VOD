@@ -63,5 +63,27 @@ background-color:#333A39;
 @media only screen and (min-width:768px){
     .all-tarifs{
         display:flex;
+        justify-content: space-evenly;
     }
+
+
+    .dada-flex{
+        width:30%;
+    }
+
+    .prix-dada{
+        width:100%;
+        height:30vh;
+        
+    }
+
+    .descrip-dada{
+        font-size:15px;
+    }
+}
+
+@media only screen and (min-width:1000px){
+
+  
+
 }
