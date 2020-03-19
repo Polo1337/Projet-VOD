@@ -36,53 +36,57 @@ background-color:#333A39;
 }
 
 .prix-dada{
+    margin-top:0px;
     background-color:#355864;;  
     color:#FDFDFD;
     margin-left:auto;
     margin-right:auto;
     margin-top:0;
     font-family: "Ubuntu",Arial, Helvetica, sans-serif;
-    padding-top:10px;
-    padding-bottom:10px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     margin-bottom:50px;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:6px;
    
 }
 
-
-.descrip-dada{
+.para-prix{
+    font-size:20px;
+    line-height:50px;
     width:90%;
     margin-left:auto;
     margin-right:auto;
-    margin-top:30px;
-    margin-bottom:30px;
-    font-size:18px;
 }
 
+
+
 @media only screen and (min-width:768px){
-    .all-tarifs{
-        display:flex;
-        justify-content: space-evenly;
-    }
+   .all-tarifs{
+       display:flex;
+       width:100%;
+       justify-content: space-evenly;
+   }
+
+   .dada-flex{
+       width:30%;
+
+   }
 
 
-    .dada-flex{
-        width:30%;
-    }
-
-    .prix-dada{
-        width:100%;
-        height:30vh;
-        
-    }
-
-    .descrip-dada{
-        font-size:15px;
-    }
 }
 
 @media only screen and (min-width:1000px){
+
+    .all-tarifs{
+        width:90%;
+    }
+
+    .dada-flex{
+        width:30%;
+ 
+    }
 
   
 
