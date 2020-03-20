@@ -3,7 +3,7 @@
 
 <div class="row mt " style="width: 100%;">
   <div class="col-lg-6 polo1">
-    <img src="images/téléchargement.jpg">
+    <img src="assets/img/téléchargement.jpg">
   </div>
   <div class="col-lg-6 polo2">
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid illum in optio placeat porro ipsam

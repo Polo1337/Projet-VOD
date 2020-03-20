@@ -1,7 +1,7 @@
 <div class="topnav" id="myTopnav">
-  <a class="active" href="#home">SIMPLON VOD</a>
-  <a href="#about">Films</a>
-  <a href="#contact">Contact</a>
+  <a class="active" href="index.php">SIMPLON VOD</a>
+  <a href="films.php">Films</a>
+  <a href="contact.php">Contact</a>
   <div class="search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Search.." name="search">
