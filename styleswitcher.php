@@ -6,10 +6,10 @@ function construire_url($dossier)
 }
 
 $dossiers = array(
-	'style.css',
-	'style2.css',
-	'style3.css',
-  'style4.css'
+	'index.css',
+	'pol/index2.css',
+	'steven/index3.css',
+  	'axel/index4.css'
 );
 
 $actuel = htmlspecialchars($_SERVER['PHP_SELF']);
