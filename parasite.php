@@ -20,14 +20,20 @@ require_once 'styleswitcher.php';
     <!--CSS-->
 
     <link rel="stylesheet" href="css/reset.css">
+<<<<<<< HEAD
     <link rel="stylesheet" media="screen, projection" type="text/css" id="css" href="<?php echo $url; ?>" />
     
+=======
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/parasite.css">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
 
     <!--GOOGLE FONTS-->
 
     <link
         href="https://fonts.googleapis.com/css?family=Baloo+Tammudu+2:400,500,600,700,800|Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap"
         rel="stylesheet">
+<<<<<<< HEAD
     <link
         href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
         rel="stylesheet">
@@ -37,6 +43,8 @@ require_once 'styleswitcher.php';
     <link href="https://fonts.googleapis.com/css?family=Orbitron:700,800,900|Quicksand:300,400,500,600,700&display=swap"
         rel="stylesheet">
 
+=======
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 

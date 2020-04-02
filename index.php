@@ -16,12 +16,21 @@ require_once 'styleswitcher.php';
     <link rel="stylesheet" type="text/css" href="slick\slick\slick.css" />
     <link rel="stylesheet" type="text/css" href="slick\slick\slick-theme.css" />
 
+<<<<<<< HEAD
 
 
+=======
+    
+    
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
 
     <!--CSS-->
 
     <link rel="stylesheet" href="css/reset.css">
+<<<<<<< HEAD
+=======
+    <link rel="stylesheet" href="css/index.css">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
     <link rel="stylesheet" media="screen, projection" type="text/css" id="css" href="<?php echo $url; ?>" />
 
 
@@ -30,6 +39,7 @@ require_once 'styleswitcher.php';
     <link
         href="https://fonts.googleapis.com/css?family=Baloo+Tammudu+2:400,500,600,700,800|Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap"
         rel="stylesheet">
+<<<<<<< HEAD
     <link
         href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
         rel="stylesheet">
@@ -47,6 +57,8 @@ require_once 'styleswitcher.php';
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+=======
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--FOTORAMA-->
@@ -54,7 +66,11 @@ require_once 'styleswitcher.php';
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 
 
@@ -70,6 +86,7 @@ require_once 'styleswitcher.php';
     include 'include/footer.php';
     ?>
 
+<<<<<<< HEAD
 
     <script type="text/javascript" src="slick\slick\slick.min.js"></script>
     <script type="text/javascript">
@@ -104,6 +121,42 @@ require_once 'styleswitcher.php';
             });
         });
     </script>
+=======
+   
+<script type="text/javascript" src="slick\slick\slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $('.center').slick({
+            dots: true,
+            autoplay: true,
+            arrows: true,
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    });
+</script>          
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
 </body>
 
 </html>

@@ -203,6 +203,7 @@ input{
     transition: 0.2s ease;
     margin:5px;
 }
+<<<<<<< HEAD:index.css
 
 .style_pol{
     width:30px;
@@ -222,6 +223,27 @@ input{
     margin:5px;
 }
 
+=======
+
+.style_pol{
+    width:30px;
+    height:30px;
+    background-color:#C70039;
+    border-radius:50%;
+    transition: 0.2s ease;
+    margin:5px;
+}
+
+.style_steven{
+    width:30px;
+    height:30px;
+    background-color:#DAF7A6;
+    border-radius:50%;
+    transition: 0.2s ease;
+    margin:5px;
+}
+
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5:css/index.css
 .liens-couleurs{
     display:flex;
     justify-content: center;
@@ -878,6 +900,7 @@ footer{
     margin-bottom:auto;
 
 }
+<<<<<<< HEAD:index.css
 
 
 }
@@ -1069,6 +1092,8 @@ footer{
     margin-right:auto;
     margin-bottom:30px;
     background-color: black;
+=======
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5:css/index.css
 
 }
 

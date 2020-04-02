@@ -14,6 +14,7 @@
                         <div class="liens-couleurs">
 
                     <li>
+<<<<<<< HEAD
                         <div class="style_axel"><a href="<?php echo $actuel; ?>?style=../css/index.css"></a>
                             <div>
                     </li>
@@ -25,6 +26,19 @@
                     </li>
                     <li>
                         <div class="style_ilayda"><a href="<?php echo $actuel; ?>?style=../axel/index4.css"></a></div>
+=======
+                        <div class="style_axel"><a href="<?php echo $actuel; ?>?style=./css/style2.css"></a>
+                            <div>
+                    </li>
+                    <li>
+                        <div class="style_pol"><a href="<?php echo $actuel; ?>?style=../css/style3.css"></a></div>
+                    </li>
+                    <li>
+                        <div class="style_steven"><a href="<?php echo $actuel; ?>?style=../css/style4.css"></a></div>
+                    </li>
+                    <li>
+                        <div class="style_ilayda"><a href="<?php echo $actuel; ?>?style=../css/index.css"></a></div>
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                     </li>
                     </div>
 
@@ -65,6 +79,7 @@
             <ul>
 
                 <li>
+<<<<<<< HEAD
                     <div class="style_axel"><a href="<?php echo $actuel; ?>?style=axel/index4.css"></a>
                         <div>
                 </li>
@@ -76,6 +91,19 @@
                 </li>
                 <li>
                     <div class="style_ilayda"><a href="<?php echo $actuel; ?>?style=index.css"></a></div>
+=======
+                    <div class="style_axel"><a href="<?php echo $actuel; ?>?style=./css/style2.css"></a>
+                        <div>
+                </li>
+                <li>
+                    <div class="style_pol"><a href="<?php echo $actuel; ?>?style=../css/style3.css"></a></div>
+                </li>
+                <li>
+                    <div class="style_steven"><a href="<?php echo $actuel; ?>?style=../css/style4.css"></a></div>
+                </li>
+                <li>
+                    <div class="style_ilayda"><a href="<?php echo $actuel; ?>?style=../css/index.css"></a></div>
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                 </li>
                 <li><a href="catalogue.php">Films</a></li>
                 <li><a href="connexion.php">Connexion</a></li>

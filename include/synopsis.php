@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <h2 class="page-film">Parasite</h2>
+=======
+<h2 class="titrefilm">Parasite</h2>
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
 
     <!--SYNOPSIS-->
 

@@ -3,7 +3,11 @@
 <div class="axeldroite">
             <a href="parasite.php" class="versfilm">
             <div class="cardaxel">
+<<<<<<< HEAD
                 <img class="poster-img" src="./img/poster1.jpg" alt="">
+=======
+                <img src="./img/poster1.jpg" alt="">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                 <div class="titrefilm">Parasite</div>
                 <div class="infoaxel">
                     <div class="textaxel">
@@ -16,7 +20,11 @@
             </a>
             <a href="" class="versfilm">
             <div class="cardaxel">
+<<<<<<< HEAD
                 <img class="poster-img" src="./img/poster2.jpg" alt="">
+=======
+                <img src="./img/poster2.jpg" alt="">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                 <div class="titrefilm">The Irishman</div>
                 <div class="infoaxel">
                     <div class="textaxel">
@@ -29,7 +37,11 @@
             </a>
             <a href="" class="versfilm">
             <div class="cardaxel">
+<<<<<<< HEAD
                 <img class="poster-img" src="./img/poster3.jpg" alt="">
+=======
+                <img src="./img/poster3.jpg" alt="">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                 <div class="titrefilm">Vivre et chanter</div>
                 <div class="infoaxel">
                     <div class="textaxel">
@@ -42,7 +54,11 @@
             </a>
             <a href="" class="versfilm">
             <div class="cardaxel">
+<<<<<<< HEAD
                 <img class="poster-img" src="./img/poster4.jpg" alt="">
+=======
+                <img src="./img/poster4.jpg" alt="">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                 <div class="titrefilm">Dark Waters</div>
                 <div class="infoaxel">
                     <div class="textaxel">
@@ -56,7 +72,11 @@
 
             <a href="" class="versfilm">
                 <div class="cardaxel">
+<<<<<<< HEAD
                 <img class="poster-img" src="./img/poster5.jpg" alt="">
+=======
+                <img src="./img/poster5.jpg" alt="">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                 <div class="titrefilm">En Avant</div>
                 <div class="infoaxel">
                     <div class="textaxel">
@@ -69,7 +89,11 @@
         </a>
         <a href="" class="versfilm">
             <div class="cardaxel">
+<<<<<<< HEAD
                 <img class="poster-img" src="./img/poster6.jpg" alt="">
+=======
+                <img src="./img/poster6.jpg" alt="">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                 <div class="titrefilm">Le cas de Richard Jewell</div>
                 <div class="infoaxel">
                     <div class="textaxel">
@@ -82,7 +106,11 @@
             </a>
             <a href="" class="versfilm">
             <div class="cardaxel">
+<<<<<<< HEAD
                 <img class="poster-img" src="./img/poster7.jpg" alt="">
+=======
+                <img src="./img/poster7.jpg" alt="">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                 <div class="titrefilm">De Gaulle</div>
                 <div class="infoaxel">
                     <div class="textaxel">
@@ -95,7 +123,11 @@
             </a>
             <a href="" class="versfilm">
             <div class="cardaxel">
+<<<<<<< HEAD
                 <img class="poster-img" src="./img/poster8.jpg" alt="">
+=======
+                <img src="./img/poster8.jpg" alt="">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                 <div class="titrefilm">L'appel de la forêt</div>
                 <div class="infoaxel">
                     <div class="textaxel">
@@ -108,7 +140,11 @@
             </a>
             <a href="" class="versfilm">
                 <div class="cardaxel">
+<<<<<<< HEAD
                     <img class="poster-img" src="./img/poster11.jpg" alt="">
+=======
+                    <img src="./img/poster11.jpg" alt="">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                     <div class="titrefilm">(500) Jours ensemble</div>
                     <div class="infoaxel">
                         <div class="textaxel">
@@ -122,7 +158,11 @@
 
                 <a href="" class="versfilm">
                     <div class="cardaxel">
+<<<<<<< HEAD
                         <img class="poster-img" src="./img/poster10.jpg" alt="">
+=======
+                        <img src="./img/poster10.jpg" alt="">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                         <div class="titrefilm">Midsommar</div>
                         <div class="infoaxel">
                             <div class="textaxel">
@@ -136,7 +176,11 @@
 
                     <a href="" class="versfilm">
                         <div class="cardaxel">
+<<<<<<< HEAD
                             <img class="poster-img" src="./img/poster9.jpg" alt="">
+=======
+                            <img src="./img/poster9.jpg" alt="">
+>>>>>>> 002dd648dcecebfd252eabc5038b81305f5b35f5
                             <div class="titrefilm">Fast & Furious : Hobbs & Shaw</div>
                             <div class="infoaxel">
                                 <div class="textaxel">
