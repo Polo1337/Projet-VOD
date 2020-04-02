@@ -1,3 +1,5 @@
   <!--PARALLAX-->
 
-  <div class="parallax-window" data-parallax="scroll" data-z-index="2" data-image-src=".\img\parallax2.jpg"></div>
+  <div class="container">
+    <div class="parallax2"></div>
+</div>

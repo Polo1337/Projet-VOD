@@ -568,34 +568,6 @@ FOOTER {
     width:90%;
 }
 
-.style_ilayda {
-    height: 5px;
-    width: 10px;
-    display: block;
-    background-color: white;
-  }
-  
-  .style_axel {
-    height: 5px;
-    width: 10px;
-    display: block;
-    background-color: pink;
-  }
-  
-  .style_pol {
-    height: 5px;
-    width: 10px;
-    display: block;
-    background-color: blue;
-  }
-  
-  .style_steven {
-    height: 5px;
-    width: 10px;
-    display: block;
-    background-color: green;
-  }
-
 .menu-dada ul{
     float:right;
     list-style:none;

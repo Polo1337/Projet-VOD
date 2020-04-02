@@ -1,3 +1,204 @@
+
+.style_switcher{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    padding-top: 10px;
+  }
+  
+  
+  
+  .style_ilayda {
+    height: 5px;
+    width: 10px;
+    display: block;
+    background-color: white;
+  }
+  
+  .style_axel {
+    height: 5px;
+    width: 10px;
+    display: block;
+    background-color: pink;
+  }
+  
+  .style_pol {
+    height: 5px;
+    width: 10px;
+    display: block;
+    background-color: blue;
+  }
+  
+  .style_steven {
+    height: 5px;
+    width: 10px;
+    display: block;
+    background-color: green;
+  }
+  
+body {
+  background-color: #E9F1F7!important;
+}
+
+
+/* Style catalogue */
+
+.axeltitreh2 {
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FF7200;
+    box-shadow: 2px 4px 5px black;
+}
+
+.axelcontainer {
+    width: 100%;
+    display: flex;
+}
+
+
+.axelgauche {
+    background-color: #FF7200;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.axelH5 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.axelgenre {
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.axelcase {
+    margin: 5px;
+}
+
+
+/*LIGHTBOX*/
+
+.axeldroite {
+    display: flex;
+    flex-wrap: wrap;
+    width:70%;
+    justify-content: center;
+}
+
+
+.cardaxel {
+    position:relative;
+    width: 100px;
+    height:135px;
+    margin:10px;
+    margin-bottom:40px;
+}
+
+
+.cardaxel:hover .infoaxel {
+    opacity: 0.8;
+}
+
+.versfilm{
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width:100%;
+    height:100%;
+    border-radius:10px;
+}
+
+.titrefilm{
+    color:white;
+    text-align:center;
+    font-family:'Ubuntu', Arial, Helvetica, sans-serif;
+    margin-top:5px;
+    font-size:15px;
+}
+
+.infoaxel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.textaxel {
+    color: black;
+    font-family:'Ubuntu', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+@media only screen and (min-width:1000px){
+
+
+    .axelgauche{
+        width:15%;
+    }
+
+    .axeldroite{
+        width:85%;
+    }
+
+    .axeltitreh2{
+        margin-top:30px;
+    }
+
+    .cardaxel{
+        width:300px;
+        height:405px;
+        border-radius:10px;
+    }
+
+    .infoaxel{
+        top:90%;
+        height:10%;
+    }
+
+    .textaxel{
+        display: flex;
+        justify-content: space-evenly;
+        width:100%;
+        font-size:15px;
+        padding-bottom:60px;
+    }
+}
+
+
+
+/* Style index */
+
 body{
     background-color: #121111;
 }
@@ -27,7 +228,7 @@ body{
     width:50px;
     height: 50px;
     opacity:0;
-    
+
 }
 
 .menu-wrap .hamburger{
@@ -43,7 +244,7 @@ body{
     justify-content: center;
     border-radius: 10px;
     margin:5px;
-    
+
 
 }
 
@@ -159,7 +360,7 @@ transition-duration: 0.3s;
     margin-right: 20px;
 
 
-} 
+}
 
 .menu-wrap .menu > div > div > ul > li > a {
     color:#FF7200;
@@ -167,19 +368,20 @@ transition-duration: 0.3s;
     transition: color 0.4s ease;
     font-family: 'Baloo Tammudu 2', Arial, Helvetica, sans-serif;
     text-align: center;
-    
+
 }
 
 input{
-    border: 5px solid #FF7200;
-    background-color: black;
+    border: 5px solid #6A8EAE;
+    background-color: #E9F1F7;
     color:white;
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 
 .search-button{
-    background-color:#FF7200;
-    border:5px solid #FF7200;
+    background-color:#6A8EAE;
+    color: #E9F1F7;
+    border:5px solid #6A8EAE;
 }
 
 .search-button:hover{
@@ -209,7 +411,7 @@ input{
 }
 .title-dada h1 a:visited {
     color:#FF7200;
-    
+
 }
 
 
@@ -277,7 +479,7 @@ input{
     margin-top:20px;
     font-size:30px;
     font-weight:600;
-    color:#FF7200;
+    color:#6A8EAE;
 
 }
 
@@ -317,7 +519,7 @@ input{
     margin-left:auto;
     margin-top:50px;
   }
-  
+
   .tarifs-dada > h2{
     text-align: center;
     font-family: 'Baloo Tammudu 2', Arial, Helvetica, sans-serif;
@@ -327,34 +529,34 @@ input{
     margin-top:20px;
     font-size:30px;
     font-weight:600;
-    color:#FF7200;
+    color:#6A8EAE;
 
-    
+
   }
-  
+
   .all-tarifs{
     margin-left:auto;
     margin-right:auto;
     width:95%;
-    
+
   }
-  
-  
+
+
   .titre-prix {
     font-family: "Baloo Tammudu 2", Arial, Helvetica, sans-serif;
-    background-color:#FF7200;
-    color:black;
+    background-color:#6A8EAE;
+    color:#131B23;
     margin-bottom:0px;
     border-top-left-radius:5px;
     border-top-right-radius:5px;
     padding-top:10px;
     font-size:25px;
-    
+
   }
-  
+
   .prix-dada{
     margin-top:0px;
-    background-color:black;  
+    background-color:#131B23;
     color:white;
     margin-left:auto;
     margin-right:auto;
@@ -366,15 +568,16 @@ input{
     height:auto;
     padding-top:10px;
     padding-bottom:6px;
-   
+
   }
-  
+
   .para-prix{
     font-size:20px;
     line-height:50px;
     width:90%;
     margin-left:auto;
     margin-right:auto;
+    color:#6A8EAE ;
   }
 
   .gros-prix{
@@ -404,34 +607,23 @@ FOOTER {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color:black;
+    background-color:#131B23;
     padding-top:30px;
     padding-bottom:30px;
     color:white;
-    
+
 }
 
+footer>p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+}
 
 .title-footer {
     font-weight: bolder;
     margin-bottom: 20px;
     margin-top: 20px;
-    font-size:30px;
-}
-
-.liens-footer{
-    text-decoration: none;
-    font-size:20px;
-    color:#FF7200;
-    line-height:30px;
-}
-
-.liens-footer:hover{
-    color:white;
-}
-
-.col-footer{
-    margin-bottom:30px;
 }
 
 .copy {
@@ -439,7 +631,7 @@ FOOTER {
     padding-top: 10px;
 }
 
-  
+
   @media only screen and (min-width:768px){
 
 
@@ -448,13 +640,14 @@ FOOTER {
         width:100%;
         margin-top:50px;
     }
-    
+
     .img-txt img{
         width:50%;
     }
     .img-txt p {
+        color:#6A8EAE;
         width:40%;}
-       
+
 
 /*----------------------------------------------------------TARIFS----------------------------------------------------------*/
 
@@ -464,10 +657,10 @@ FOOTER {
        width:100%;
        justify-content: space-evenly;
    }
-  
+
    .dada-flex{
        width:30%;
-  
+
    }
 
 
@@ -494,12 +687,6 @@ FOOTER {
 
     }
 
-    .title-footer{
-        font-size:25px;
-    }
-
-   
-
     .col1,
     .col2,
     .col3 {
@@ -511,20 +698,11 @@ FOOTER {
         display: flex;
         padding-top: 20px;
         margin-bottom: 30px;
-        margin-left:auto;
-        margin-right:auto;
-    
-    }  
 
-   .sous-footer{
-       width:30%;
-       margin:1px;
-       margin-left:auto;
-       margin-right:auto;
-   }
-  
+    }
+
   }
- 
+
 @media only screen and (min-width:1000px){
 
     .menu-wrap{
@@ -540,7 +718,7 @@ FOOTER {
     display:block;
     width:100%;
     height:60px;
-    background-color:black;
+    background-color:#131B23;
     position:fixed;
     z-index:100;
     padding-top:15px;
@@ -568,34 +746,6 @@ FOOTER {
     width:90%;
 }
 
-.style_ilayda {
-    height: 5px;
-    width: 10px;
-    display: block;
-    background-color: white;
-  }
-  
-  .style_axel {
-    height: 5px;
-    width: 10px;
-    display: block;
-    background-color: pink;
-  }
-  
-  .style_pol {
-    height: 5px;
-    width: 10px;
-    display: block;
-    background-color: blue;
-  }
-  
-  .style_steven {
-    height: 5px;
-    width: 10px;
-    display: block;
-    background-color: green;
-  }
-
 .menu-dada ul{
     float:right;
     list-style:none;
@@ -604,7 +754,7 @@ FOOTER {
 
 .menu-nav{
     overflow:hidden;
-   
+
 }
 
 .menu-nav ul li{
@@ -614,7 +764,7 @@ FOOTER {
 .menu-nav ul li a{
     display:inline-block;
     text-decoration:none;
-    color:#FF7200;
+    color:#6A8EAE;
      font-family:"Baloo Tammudu 2", Arial, Helvetica, sans-serif;
      padding-top:15px;
      padding-left:20px;
@@ -636,22 +786,12 @@ color:white;
 
 .lien-home {
     text-decoration: none;
-    color:#FF7200;
-}
-
-.lien-home:active{
-    color:#FF7200;
-}
-
-.lien-home:visited{
-    color:#FF7200;
+    color:#6A8EAE;
 }
 
 .lien-home:hover{
     color:white;
 }
-
-
 
 
 
@@ -673,31 +813,38 @@ color:white;
 
 /*----------------------------------------------------------PARALLAX----------------------------------------------------------*/
 
-.parallax {
-    min-height: 800px;
-    background: transparent;
+.container {
+    display:block;
+  max-width:100%;
+  margin:0 auto;
+  background:black;
+  font-size:30px;
 }
 
-.container-para{
-    height:900px;
+.parallax{
+    background: url('img/parallax.jpeg') no-repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:200px;
+}
+
+
+.parallax2{
+    background: url('img/parallax2.jpg') no-repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:200px;
 }
 
 /*----------------------------------------------------------IMG TXT----------------------------------------------------------*/
 
 .img-txt{
     margin:0;
-    height:auto;
 }
 
-.img-txt>p{
-    font-size:20px;
-    margin-top:auto;
-    margin-bottom:auto;
-
+p{
+    padding-top:70px;
 }
-
-
-
 
 /*----------------------------------------------------------TARIFS----------------------------------------------------------*/
 
@@ -751,14 +898,306 @@ color:white;
 .col-footer >div{
     width:20%;
     margin:20px;
-    
-}
 
-footer{
-    padding-top:1px;
 }
 
 
 
 }
 
+/* style parasite  */
+
+/*TITRE FILM*/
+
+
+
+.titrefilm{
+    text-align: center;font-family: 'Baloo Tammudu 2', Arial, Helvetica, sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:35px;
+    font-weight:600;
+    color:#FF7200;
+
+}
+
+/*SYNOPSIS*/
+
+
+.img-resume{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:30px;
+    background-color: black;
+
+}
+
+.img-film{
+    width:100%;
+}
+
+.synop{
+    color:white;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    margin-top:20px;
+    margin-bottom:50px;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:30px;
+}
+
+.synop p {
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:#FF7200;
+    margin-bottom:30px;
+
+}
+
+
+/*RESUME*/
+
+
+.rond-titre{
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:#FF7200;
+    margin-bottom:20px;
+
+}
+
+.ronds-info{
+    display:flex;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-evenly;
+
+}
+
+.ronds-ronds{
+    background-color: #FF7200;
+    height:90px;
+    width:90px;
+    margin:10px;
+    border-radius:50%;
+    text-align: center;
+    color:black;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    line-height:90px;
+    font-weight:700;
+
+
+}
+
+.ronds-bis{
+    color:white;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    margin-bottom:10px;
+
+}
+
+
+/*ACTEURS*/
+
+
+.acteurs-titre{
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:#FF7200;
+    margin-top:40px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: black;
+}
+
+.liste-acteurs{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: black;
+}
+
+.acteur{
+    width:20%;
+    margin:20px;
+    color:white;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    font-size:10px;
+    text-align: center;
+    position: relative;
+
+}
+
+.acteur img{
+    width:90px;
+    margin-bottom:10px;
+
+}
+
+/*REAL BA*/
+
+.real-real{
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:#FF7200;
+    margin-bottom:30px;
+    margin-top:40px;
+}
+
+.real-ba{
+    color:white;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+
+
+.real{
+    display: flex;
+    margin-right:auto;
+    margin-left:auto;
+    width:90%;
+    justify-content: space-between;
+    text-align: justify;
+
+}
+
+.img-real{
+    width:30%;
+    font-size:15px;
+    text-align: center;
+    margin-bottom:70px;
+}
+
+.img-real >img{
+    width:90px;
+}
+
+.img-real > div{
+    font-size:13px;
+    text-align: center;
+    margin:10px;
+}
+
+.text-real{
+    width:70%;
+    line-height: 20px;
+}
+
+
+.ba-yt{
+    text-align: center;
+}
+
+@media only screen and (min-width:1000px){
+
+
+    /*TITRE FILM*/
+
+
+    .titrefilm{
+        margin-top:50px;
+        font-size:50px;
+    }
+
+    /*SYNOPSIS*/
+
+    .img-resume{
+        display:flex;
+    }
+
+    .img-film{
+        width:50%;
+    }
+
+.synop{
+    width:40%;
+    margin-top:0px;
+    font-size:20px;
+    text-align: justify;
+}
+
+.synop p {
+    font-size:40px;
+}
+
+/*RESUME*/
+
+
+.rond-titre{
+    font-size:40px;
+}
+
+.ronds-ronds{
+    height:150px;
+    width:150px;
+    line-height:150px;
+    font-size:25px;
+    margin-bottom:30px;
+
+}
+.ronds-bis{
+    font-size:20px;
+}
+
+/*ACTEURS*/
+
+.acteurs-titre{
+    font-size:40px;
+}
+
+.liste-acteurs{
+    justify-content: space-evenly;
+}
+
+.acteur{
+    width:12%;
+}
+
+/*REAL BA*/
+
+.real-real{
+    font-size:40px;
+}
+
+.real-ba{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    padding-bottom:40px;
+}
+
+.real{
+    width:50%;
+    justify-content: space-evenly;
+}
+
+.ba-yt{
+    width:50%;
+}
+
+.text-real{
+width:40%;
+}
+
+.img-real{
+    width:10%;
+}
+
+
+
+}
